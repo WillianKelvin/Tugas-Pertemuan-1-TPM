@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Blog Tokped</string>
+    <string name="content_text">Tokopedia merupakan perusahaan perdagangan eletronik atau sering disebut toko daring. Sejak didirikan pada tahun 2009, Tokopedia telah bertransformasi menjadi sebuah unicorn yang berpengaruh tidak hanya di Indonesia tetapi juga di Asia Tenggara. Hingga saat ini, Tokopedia termasuk marketplace yang paling banyak dikunjungin oleh masyarakat Indonesia. </string>
+    <string name="content_specs">Berdiri</string>
+    <string name="founded">06 Feb 2009</string>
+    <string name="founders">Founder</string>
+    <string name="all_founders">William Tanuwijaya\n
+    Leontinus Alpha Edison
+    </string>
+    <string name="about">About Me</string>
+    <string name="name">Willian Kelvin Nata</string>
+    <string name="apps">TOKOPEDIA</string>
+</resources>

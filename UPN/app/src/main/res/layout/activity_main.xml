@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+    <ImageView
+        android:id="@+id/Tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="300dp"
+        android:maxHeight="300dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo_upn"
+        />
+
+    <EditText
+        android:id="@+id/Tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:hint="Email"
+        android:layout_below="@+id/Tv1" />
+    <EditText
+        android:id="@+id/Tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:inputType="numberPassword"
+        android:layout_centerInParent="true"
+        android:hint="Password"
+        android:layout_below="@+id/Tv2" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:text="LOGIN"
+        android:layout_below="@+id/Tv3" />
+    <Button
+        android:id="@+id/Tv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR"
+        android:layout_below="@id/Tv3"
+        android:layout_toRightOf="@id/btn1"/>
+
+</RelativeLayout>
